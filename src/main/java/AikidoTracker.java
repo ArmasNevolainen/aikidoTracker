@@ -6,6 +6,10 @@ public class AikidoTracker {
     private Date startDate;
     private int practiceCounter;
 
+    public static void main(String[] args) {
+        AikidoTracker tracker = new AikidoTracker("Armas", new Date());
+    }
+
     public AikidoTracker(String name, Date startDate) {
         this.name = name;
         this.startDate = startDate;
